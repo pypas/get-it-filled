@@ -1,0 +1,24 @@
+<cells>
+	<nbLines>1</nbLines>
+	<nbColumns>4</nbColumns>
+    <cell id="0">
+        <type>FirstCell</type>
+        <line>0</line>
+        <column>0</column>
+    </cell>
+    <cell id="1">
+        <type>StandardCell</type>
+        <line>0</line>
+        <column>1</column>
+    </cell>
+    <cell id="2">
+        <type>StandardCell</type>
+        <line>0</line>
+        <column>2</column>
+    </cell>
+    <cell id="3">
+        <type>LastCell</type>
+        <line>0</line>
+        <column>3</column>
+    </cell>
+</cells>
