@@ -17,7 +17,7 @@ public class GameWindow extends JFrame{
 	public GameController gameController;
 	
 	public GameWindow(Engine engine, String fileName) throws ParserConfigurationException, SAXException, IOException {
-		this.gameController = new GameController(fileName);
+		this.gameController = new GameController("boards/" + fileName);
 		this.gamePanel = new GamePanel(gameController, engine);
 		
 		Dimension dim = new Dimension(2* this.gamePanel.getSquareSize() * this.gameController.getNbColumns(),
